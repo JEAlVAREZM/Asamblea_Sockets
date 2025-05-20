@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Login</title>
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding-top: 60px;
+        }
+        .form-container {
+                    max-width: 500px;
+                    margin: 0 auto;
+                    padding: 30px;
+                    background-color: white;
+                    border-radius: 10px;
+                    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="form-container">
+                    <form>
+                        
+                        <div class="mb-3">
+                            <label for="form2Example1" class="form-label" aria-placeholder="Email" aria-required="true">Correo</label>
+                            <input type="email" id="form2Example1" class="form-control" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="form2Example2" class="form-label" aria-placeholder="Contraseña" aria-required="true">Contraseña</label>
+                            <input type="password" id="form2Example2" class="form-control" />
+                        </div>
+
+                        <div class="row mb-4">
+                            <div class="col d-flex justify-content-center">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="form2Example31" checked />
+                                    <label class="form-check-label" for="form2Example31">Recordarme</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="btn btn-primary w-100 mb-4">Iniciar sesión</button>
+
+                        <div class="text-center">
+                            <p>¿Aún no estás registrado? <a href="#!">Registrarse</a></p>
+                            <p>Inicia sesión con:</p>
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-facebook-f"></i>
+                            </button>
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-google"></i>
+                            </button>
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-twitter"></i>
+                            </button>
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-github"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
